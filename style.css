@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, button {
+    font-family: 'Days One', sans-serif;
+    font-weight: normal;
+}
+
+body,
+input {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #c42121;
+    color: #e9e8e8;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #e9e8e8;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+section {
+    padding: 30px;
+    background-color: #e9e8e8;
+    color: #000000;
+}
+
+section h2, h3 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.f1-car,
+.alfa-romeo {
+    margin-right: 32px;
+    border-radius: 5%;   
+    max-width: 50%;
+    height: auto;
+}
+
+.alfa-romeo {
+    margin-left: 32px;
+}
+
+#historia {
+    background-color: #272727;
+    color: #e9e8e8;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: none;
+}
+
+.articles article {
+    width: 40%;
+}
+
+.articles img {
+    width: 100%;
+    max-width: 510px;
+    height: auto;
+    border-radius: 8px;
+}
+
+#news {
+    align-items: normal;
+    display: grid;
+}
+
+.articles article a {
+    background-color: #272727;
+    color: #e9e8e8;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+    border-radius: 20px;
+}
+
+.articles article a:hover {
+    background-color: #6b6b6b;
+}
+
+.time {
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.time time {
+    margin-left: 20px;
+}
+
+#sign-up .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+form input,
+button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button {
+    background-color: #c42121;
+    color: #e9e8e8;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #831616;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 16px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
